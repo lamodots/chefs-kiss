@@ -9,8 +9,11 @@
     padding: .4rem 6rem;
    transition: all .3s ease;
 }
-button:hover{
-    border-width: 10px;
+.shadow-light:hover{
+    box-shadow:inset -3px -3px #fff,inset 3px 3px #fff;
+}
+.shadow-dark:hover{
+    box-shadow:inset -3px -3px #000,inset 3px 3px #000;
 }
 @media screen and (max-width: 325px){
     button{

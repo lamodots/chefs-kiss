@@ -16,11 +16,11 @@ const CarouselSlider = () => {
       if (index > 0){
         setIndex(index - 1)
       }else if(index === 0){
-        setIndex(3)
+        setIndex(2)
       }
     }
     const onNextClick = ()=>{
-      if (index === 3){
+      if (index === 2){
         setIndex(0)
       }else if(index === 0 || index > 0){
         setIndex(index + 1)
@@ -35,17 +35,21 @@ const CarouselSlider = () => {
                 <h1>WELCOME</h1>
                 <p>To the oasis of Las Colinas in Irving, TX.</p>
                 
-                <PrimaryButton>BOOK A TABLE</PrimaryButton>
+                <PrimaryButton shadow="shadow-light">BOOK A TABLE</PrimaryButton>
               </div>
               <div className='carousel-control-wrapper'>
                <div>
-                <button onClick={onPrevClick}> prev</button>
+                <button onClick={onPrevClick}> 
+                  <img src='assets/images/home/icons8-left.png' alt="left" />
+                </button>
                   <div className='dots'>
                     {dots.map(dot=>(
                       <div className={`dot ${index === dot? 'active': ""}`} onClick={()=>setIndex(dot)}></div>
                     ))}
                   </div>
-                  <button onClick={onNextClick}>next</button>
+                  <button onClick={onNextClick}>
+                  <img src='assets/images/home/icons8-right.png' alt="right" />
+                  </button>
                </div>
               </div>
             </div>

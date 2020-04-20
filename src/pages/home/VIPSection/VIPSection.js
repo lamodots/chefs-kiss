@@ -16,7 +16,7 @@ const VIPSection = () => {
                 important dates, recognitions, scholarship program, and any guest incentives available.
                 We care about our guests' privacy, and will never sell or rent your information.
             </p>
-            <PrimaryButton color="#000">JOIN HERE</PrimaryButton>
+            <PrimaryButton color="#000" shadow="shadow-dark">JOIN HERE</PrimaryButton>
             </div>
             <div className='vip-img'>
                 <img src='assets/images/home/vip.jpg' alt='vip'/>

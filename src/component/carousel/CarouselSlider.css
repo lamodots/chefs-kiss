@@ -69,6 +69,10 @@
     background-color: #fff;
     transition: all .3s ease;
 }
+.carousel-control-wrapper button img{
+    height: 50%;
+    color: #bc8d4b;
+}
 .carousel-control-wrapper button:focus{
     outline: none;
 }

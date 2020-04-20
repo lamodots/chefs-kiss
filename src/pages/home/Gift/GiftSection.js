@@ -11,7 +11,7 @@ const GiftSection = () => {
         <div className='gift-text'>
           <h2>GIFT CARD</h2>
           <p>Present a Gift Card to your family, friends and business colleagues.</p>
-          <PrimaryButton color="#000">PURCHASE GIFT CARD</PrimaryButton>
+          <PrimaryButton color="#000" shadow="shadow-dark">PURCHASE GIFT CARD</PrimaryButton>
         </div>
     </section>
   )
