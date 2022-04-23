@@ -115,6 +115,9 @@
     .banner .content-wrapper .welcome{
         width: 100%;
     }
+    .banner .welcome h1{   
+        font-size: 5.5rem;
+    }
     .carousel-control-wrapper > div{
         width: 100%;
     }

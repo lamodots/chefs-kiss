@@ -27,7 +27,7 @@ const CarouselSlider = () => {
     }
   
     return (
-      <div className='hero'>
+      <section className='hero'>
           <div className='banner '>
             <div className='content-wrapper'>
               <div className='welcome'>
@@ -80,7 +80,7 @@ const CarouselSlider = () => {
               </Carousel.Item>
             </Carousel>
           </div>
-      </div>
+      </section>
     );
 }
 
