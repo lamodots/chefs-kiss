@@ -92,18 +92,18 @@
 }
 .carousel-control-wrapper .dot{
     padding: 4px;
-    border: 1px solid rgba(135, 126, 78, 0.6);
+    border: 1px solid #bc8d4b;
     border-radius: 100%;
     margin: 5px;
     cursor: pointer;
     transition: all .3s ease;
 }
 .carousel-control-wrapper .dot:hover{
-    background-color: rgba(135, 126, 78, 0.6);
+    background-color: #bc8d4b8b;
 }
 .carousel-control-wrapper .dots .active{
-    border-color: rgba(128, 117, 57, 0.726);
-    background-color: rgba(128, 117, 57, 0.726);
+    border-color: #bc8d4b;
+    background-color: #bc8d4b;
 }
 
 .hero img{
