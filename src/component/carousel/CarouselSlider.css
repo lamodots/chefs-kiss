@@ -39,19 +39,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 8%;
 }
-.banner .welcome a{
-    text-decoration: none;
-    color: white;
-    font-weight: 800;
-    font-size: 1rem;
-    border-width: 10px;
-    border: 5px solid white;
-    padding: .4rem 6rem;
-   transition: all .3s ease;
-}
-.banner .welcome a:hover{
-    border-width: 10px;
-}
+
 .carousel-control-wrapper{
     height: 15%;
     position: absolute;

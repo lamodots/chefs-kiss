@@ -1,5 +1,5 @@
 
-h2{
+.info-gallery h2{
     font-size: 33px;
     line-height: 44px;
     letter-spacing: 0.4px;
@@ -48,5 +48,25 @@ h2{
 @media screen and (max-width: 590px){
     .gallery-section{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+@media screen and (max-width: 415px){
+    .description{
+        padding-bottom: 5rem;
+    }
+    .gallery-section{
+        display: flex;
+        overflow: scroll;
+        scroll-margin-block: none;
+        height: 18rem;
+        width: 100vw;
+    }
+    .gallery-section .gallery{
+        width: 320px;
+        height: 100%;
+        background-color: #fff;
+    }
+    .gallery-section .gallery img{
+        width: 320px;
     }
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './CarouselSlider.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Carousel } from 'react-bootstrap';
+import PrimaryButton from '../button/PrimaryButton';
 
 
 const dots = [0,1,2]
@@ -33,8 +34,8 @@ const CarouselSlider = () => {
               <div className='welcome'>
                 <h1>WELCOME</h1>
                 <p>To the oasis of Las Colinas in Irving, TX.</p>
-
-                <a href='#'>BOOK A TABLE</a>
+                
+                <PrimaryButton>BOOK A TABLE</PrimaryButton>
               </div>
               <div className='carousel-control-wrapper'>
                <div>
