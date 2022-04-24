@@ -1,0 +1,71 @@
+.gift-section{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    background: url(/public/assets/images/home/gift-card.jpg) calc(50% - 250px) center no-repeat;
+}
+.picture{
+    flex: 1;
+    height: 100%;
+}
+.picture img{
+    display: none;
+}
+.gift-text{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.gift-text h2{
+    font-size: 33px;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.gift-text button{
+    margin-top: 5%;
+}
+@media screen and (max-width: 800px){
+    .gift-text button{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@media screen and (max-width: 650px){
+    .gift-section{
+        /* flex-direction: column; */
+    }
+    .gift-text{
+        flex: 2;
+    }
+    .picture img{
+        object-fit: contain;
+    }
+    .gift-text{
+        padding: 5rem 2rem;
+    }
+}
+@media screen and (max-width: 545px){
+    .gift-section{
+        background: #fff;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .picture img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 390px){
+    .gift-text button{
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: .7rem;
+    }
+}
