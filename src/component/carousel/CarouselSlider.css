@@ -1,0 +1,136 @@
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    cursor: grab;
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+}
+.banner .content-wrapper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.banner .content-wrapper .welcome{
+    height: 85%;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner .welcome h1{   
+    font-size: 8rem;
+    font-weight: bold;
+}
+.banner .welcome p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8%;
+}
+
+.carousel-control-wrapper{
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.carousel-control-wrapper > div{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: auto; 
+}
+.carousel-control-wrapper button{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    width: 5rem;
+    height: 100%;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+.carousel-control-wrapper button img{
+    height: 50%;
+    color: #bc8d4b;
+}
+.carousel-control-wrapper button:focus{
+    outline: none;
+}
+.carousel-control-wrapper button:hover{
+    background-color: rgb(214, 213, 208);
+}
+.carousel-control-wrapper .dots{
+    display: flex;
+}
+.carousel-control-wrapper .dot{
+    padding: 4px;
+    border: 1px solid #bc8d4b;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.carousel-control-wrapper .dot:hover{
+    background-color: #bc8d4b8b;
+}
+.carousel-control-wrapper .dots .active{
+    border-color: #bc8d4b;
+    background-color: #bc8d4b;
+}
+
+.hero img{
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px){
+    .banner .content-wrapper .welcome{
+        width: 100%;
+    }
+    .banner .welcome h1{   
+        font-size: 5.5rem;
+    }
+    .carousel-control-wrapper > div{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px){
+    .banner .welcome h1{   
+        font-size: 4rem;
+    }
+   
+}
+@media screen and (max-width: 325px){
+    .banner .welcome h1{   
+        font-size: 3rem;
+    }
+    .banner .welcome p{
+        font-size: .8rem;
+    }
+    .banner .welcome a{
+        font-weight: 600;
+        font-size: .8rem;
+        padding: .4rem 5rem;
+    }
+   
+}
