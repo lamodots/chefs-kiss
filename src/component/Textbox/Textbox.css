@@ -1,0 +1,32 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+.hero{
+
+height: 50vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h2{
+font-size: 2rem;
+text-align: center;
+font-family: "Montserrat", "sans-serif";
+
+}
+p{
+text-align: center;
+font-size: 1rem;
+line-height: 30px;
+letter-spacing: 0.2px;
+margin: 0 auto;
+margin-top: 30px;
+}
+.content{
+max-width: 669px;
+}
