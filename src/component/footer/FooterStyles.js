@@ -22,3 +22,9 @@ export const FootNote = styled.div`
   padding-bottom: 20px;
   flex-direction: column;
 `;
+
+export const Wrap = styled.div`
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+`;

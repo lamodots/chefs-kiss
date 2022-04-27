@@ -35,9 +35,11 @@ export function ServiceContact() {
   return (
     <div className="service-contact">
       <div class="contacts">
-        <div class="phone">
-          <label>Call Us</label>
-          <a href="tel:(972) 650 9001">(972) 650 9001</a>
+        <div class="phone" style={{ paddingBottom: "25px" }}>
+          <label style={{ textAlign: "left", marginLeft: "0" }}>Call Us</label>
+          <a href="tel:(234) 813 344 5566" style={{ color: "#fff" }}>
+            (234) 813 344 5566
+          </a>
         </div>
         <div className="footerbtn">
           <PrimaryButton>
@@ -73,7 +75,24 @@ export function ServiceContact() {
     </div>
   );
 }
+export function Payment() {
+  return (
+    <div
+      style={{
+        backgroundImage: "url(/assets/images/home/payments.png)",
 
+        width: "175px",
+        height: "29px",
+        paddingLeft: "10px",
+        textAlign: "left",
+        marginTop: "-20px",
+      }}
+      className="payments"
+      title="We accept Mastercard, Visa, American Express and Discover cards"
+      aria-label="We accept Mastercard, Visa, American Express and Discover cards"
+    ></div>
+  );
+}
 export function FooterCredit() {
   return (
     <div className="copy-credits">

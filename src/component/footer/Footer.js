@@ -1,5 +1,10 @@
 import React from "react";
-import { ServiceLink, ServiceContact, FooterCredit } from "./FooterServiceLink";
+import {
+  ServiceLink,
+  ServiceContact,
+  FooterCredit,
+  Payment,
+} from "./FooterServiceLink";
 import "./Footer.css";
 import { FooterContainer, FooterWrap, FootNote } from "./FooterStyles";
 
@@ -47,6 +52,9 @@ function Footer() {
           </article>
         </section>
       </FooterWrap>
+
+      <Payment />
+
       <FootNote>
         <FooterCredit />
       </FootNote>

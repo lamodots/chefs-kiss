@@ -88,13 +88,7 @@ a:hover {
 .footerbtn {
   padding: 10px;
   margin: 0;
-  /* width: 120px; */
-  /* height: 80px; */
-  /* box-sizing: content-box; */
 }
-
-/* .footerbtn a {
-} */
 
 .service-link {
   display: flex;
@@ -118,7 +112,6 @@ div .networks {
 
 .networks a {
   border: 2px solid white;
-  /* background-color: aquamarine; */
   color: white;
   border-radius: 10px;
   align-items: center;
@@ -127,10 +120,11 @@ div .networks {
 
 .copy-credits {
   display: flex;
-  /* align-items: center; */
+  font-size: 12px;
   flex-direction: row;
   justify-content: space-between;
   color: #fff;
+  padding: 10px;
 }
 div .copy-credits {
   display: flex;
@@ -148,5 +142,13 @@ span .credits {
 @media screen and (max-width: 760px) {
   .link-section {
     flex-direction: column;
+  }
+  .servicelink {
+    gap: clamp(1.5rem, 3vw, 4rem);
+  }
+  .copy-credits {
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0;
   }
 }
