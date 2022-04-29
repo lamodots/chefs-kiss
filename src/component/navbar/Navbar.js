@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <NavLink className="navbar-brand" to="/">
           <img src={logo} alt="logo" className="logo" />
         </NavLink>

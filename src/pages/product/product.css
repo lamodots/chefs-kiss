@@ -1,0 +1,124 @@
+@media only screen and (max-width: 992px){
+
+  .column-sm{
+      display: flex !important;
+      width: 100% !important;
+      align-items: center;
+      flex-direction: column !important;
+  }
+  .column-sm-r{
+    display: flex !important;
+    width: 100% !important;
+    align-items: center;
+    flex-direction: column-reverse !important;
+}
+  .item-sm{
+      margin-bottom: 15px;
+      width: 100% !important;
+      height: 60%;
+  }
+}
+.meal {
+  display: flex;
+  flex-direction: column;
+}
+.meal_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+  padding: 25px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#lunch{
+  background-image: url(../../assets/hero.jpg);
+
+}
+#dinner{
+  background-image: url(../../assets/hero2.jpg);
+
+}
+
+#dessert{
+  background-image: url(../../assets/hero3.jpg);
+  color: white;
+
+}
+.meal_banner > h6 {
+    font-weight: bold;
+}
+.meal_banner > button {
+  background-color: #b28442;
+  padding: 20px;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+}
+.meal_gallery{
+    display: flex;
+    flex-direction: column;
+}
+.gallery_card{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.gallery_card_text{
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery_card_text > h2{
+    font-weight: bold;
+    line-height: 1.2;
+}
+.gallery_card_text > p{
+ padding: 20px;
+}
+.gallery_card_image{
+  width: 50%;
+  background-size: cover;
+}
+#ceviche{
+    
+    background-image: url(../../assets/ceviche.jpg);
+   
+}
+#mexicanas{
+  
+  background-image: url(../../assets/enchiladas-mexicanas.jpg);
+ 
+}
+#tacos{
+  
+  background-image: url(../../assets/salmon-tacos.jpg);
+ 
+}
+
+#bass{
+  background-image: url(../../assets/hero2.jpg);
+}
+#smoked{
+  background-image: url(../../assets/red-oak-smoked-tenderloin.jpg);
+}
+#shrimp{
+  background-image: url(../../assets/shrimp-cocktail.jpg);
+
+}
+#cake{
+  background-image: url(../../assets/chocolate-raspberry-cake.jpg);
+
+}
+#bean{
+  background-image: url(../../assets/vanilla-bean-flan.jpg);
+
+}
+#creme{
+  background-image: url(../../assets/white-chocolate-creme-brulee.jpg);
+
+}
+
