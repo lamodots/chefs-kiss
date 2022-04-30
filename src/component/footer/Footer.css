@@ -1,0 +1,154 @@
+.servicelink {
+  display: flex;
+  max-width: 900px;
+  gap: clamp(1.5rem, 6vw, 7rem);
+  justify-content: space-between;
+}
+.link-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+}
+
+nav ul {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+label {
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  border-bottom: 10px;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0;
+  padding-bottom: 7px;
+}
+
+ul {
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.4;
+  line-height: 22px;
+}
+a {
+  text-decoration: none;
+  color: #bababa;
+  text-transform: uppercase;
+  transition: 0.15s ease-in-out;
+}
+
+a:hover {
+  color: #fff;
+}
+/* li a {
+  border-bottom: 10px;
+} */
+
+.menu {
+  text-align: left;
+}
+
+.service-contact {
+  max-width: 300px;
+}
+
+.service-contact label {
+  color: white;
+  display: block;
+}
+
+.phone a {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px 0px 0px;
+  text-align: left;
+}
+.service-contact {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  line-height: 22px;
+  /* padding: ; */
+}
+.service-contact a::first-of-type {
+  font-size: 30px;
+}
+
+.footerbtn {
+  padding: 10px;
+  margin: 0;
+}
+
+.service-link {
+  display: flex;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.service-contact div {
+  display: block;
+}
+
+div .networks {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+}
+
+.networks a {
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-self: center;
+}
+
+.copy-credits {
+  display: flex;
+  font-size: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+}
+div .copy-credits {
+  display: flex;
+  margin: 0;
+}
+
+span .copy {
+  text-align: left;
+  width: 100%;
+}
+span .credits {
+  text-align: right;
+}
+
+@media screen and (max-width: 760px) {
+  .link-section {
+    flex-direction: column;
+  }
+  .servicelink {
+    gap: clamp(1.5rem, 3vw, 4rem);
+  }
+  .copy-credits {
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0;
+  }
+}
