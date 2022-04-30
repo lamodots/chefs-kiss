@@ -37,7 +37,8 @@
 .products,
 .contact {
   text-decoration: none;
-  color: white;
+/* color: white; */
+color: black;
   font-size: 20px;
   padding: 10px 20px;
   margin: 0 10px;
@@ -75,7 +76,8 @@
     .about,
     .products,
     .contact {
-    color: white;
+    /* color: white; */
+    color: black;
     text-align: center;
     padding: 32px;
     width: 100%;
@@ -87,7 +89,8 @@
     display: block;
     position: absolute;
     font-size: 30px;
-    color: white;
+/* color: white; */
+color: black;
     background-color: rgb(43, 42, 42);
     border: none;
     outline: none;
