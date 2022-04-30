@@ -1,5 +1,6 @@
-import Banner from './component/Banner/Banner';
-import Textbox from './component/TextBox/Textbox';
+
+import Banner from '../../component/Banner/Banner';
+import Textbox from '../../component/Textbox/Textbox';
 
 function About() {
   return (
