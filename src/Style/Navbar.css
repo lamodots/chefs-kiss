@@ -30,8 +30,8 @@
 .products,
 .contact {
   text-decoration: none;
-  color: white;
-  font-size: 20px;
+  color: black;
+  font-size: 24px;
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
@@ -57,7 +57,7 @@
     position: absolute;
     display: block;
     list-style: none;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(238, 237, 237);
     left: 0;
     top: 100px;
     transition: all 0.5s ease-out;
@@ -68,7 +68,7 @@
     .about,
     .products,
     .contact {
-    color: white;
+    color: black;
     text-align: center;
     padding: 32px;
     width: 100%;
@@ -79,8 +79,8 @@
     display: block;
     position: absolute;
     font-size: 30px;
-    color: white;
-    background-color: rgb(43, 42, 42);
+    color: black;
+    /* background-color: rgb(43, 42, 42); */
     border: none;
     outline: none;
     top: 30px;
