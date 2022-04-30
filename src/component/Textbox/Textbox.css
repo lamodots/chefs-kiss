@@ -3,13 +3,14 @@
     padding:0;
     margin:0;
 }
-.hero{
+.about-hero{
 
 height: 50vh;
 width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: white !important;
 
 }
 

@@ -32,7 +32,7 @@ const CarouselSlider = () => {
           <div className='banner '>
             <div className='content-wrapper'>
               <div className='welcome'>
-                <h1>WELCOME</h1>
+                <h1 id='welcome'>WELCOME</h1>
                 <p>To the oasis of Las Colinas in Irving, TX.</p>
                 
                 <PrimaryButton shadow="shadow-light">BOOK A TABLE</PrimaryButton>

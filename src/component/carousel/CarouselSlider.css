@@ -3,6 +3,9 @@
     height: 100vh;
     width: 100vw;
 }
+#welcome{
+    color: white !important;
+}
 .banner{
     height: 100%;
     width: 100%;

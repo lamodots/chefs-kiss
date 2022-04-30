@@ -6,7 +6,7 @@
       const texts = props.texts;
     
       return(
-        <section className='hero'>
+        <section className='about-hero'>
                 <div className="content">
                 	<h2>{headings}</h2>
                 	<p>{texts}</p>

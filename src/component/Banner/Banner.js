@@ -2,11 +2,12 @@ import React from 'react';
 import './Banner.css';
 
 function Banner(props) {
-  const titles = props.title;
+  const title = props.title;
 
   return(
-    <section className='hero'>
-    <h1>{titles}</h1> 
+    <section className='banner-hero'>
+      <h6><b>ABOUT </b> </h6>
+    <h1>{title}</h1> 
   </section>
   );
   }
