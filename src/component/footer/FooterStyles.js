@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
   background-color: #1a1915;
+  padding:35px;
   //   height: 40vh;
 `;
 

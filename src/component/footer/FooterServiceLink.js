@@ -96,12 +96,9 @@ export function Payment() {
 export function FooterCredit() {
   return (
     <div className="copy-credits">
-      <span className="copy">© 2022 SideHsutle — All rights reserved.</span>
+      <span className="copy">© 2022 SideHustle — All rights reserved.</span>
       <span className="credits">
-        Designed and developed by --
-        <a href="!#" className="link" target="_blank">
-          React Group 63
-        </a>
+        Designed and developed by<a href="!#" className="link" target="_blank"> React Group 63</a>
       </span>
     </div>
   );

@@ -99,6 +99,8 @@ button[disabled]{
 }
 
 .section__address{
+    display: flex;
+    flex-direction: column;
     margin-top: 40px;
 }
 
@@ -110,6 +112,8 @@ button[disabled]{
 }
 
 .social{
+    display: flex;
+    justify-content: space-evenly;
     list-style: none;
 }
 

@@ -5,7 +5,6 @@ import Gallery from "./Gallery/Gallery";
 import OwnerSection from "./Owner/OwnerSection";
 import GiftSection from "./Gift/GiftSection";
 import VIPSection from "./VIPSection/VIPSection";
-import Footer from "../../component/footer/Footer";
 
 const Home = () => {
   return (
@@ -15,7 +14,6 @@ const Home = () => {
       <OwnerSection />
       <GiftSection />
       <VIPSection />
-      <Footer />
     </>
   );
 };
